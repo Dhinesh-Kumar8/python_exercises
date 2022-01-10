@@ -1,2 +1,3 @@
-a=( 1,2)
-type(a)
+# Assign s as a string
+s='dhinesh is programmer'
+print(s)
