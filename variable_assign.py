@@ -9,6 +9,6 @@ b=a+a
 print(b)
 a+=10
 print(a)
-c=5
-c=c*10
-print(c)
+d=5
+d=d*10
+print(d)
