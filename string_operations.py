@@ -19,7 +19,7 @@ s='today learn'
 print(s+'for me that u have said') 
 s=s + 'for me that u have said'
 print (s)
-
+print('\n')
 letter='z'
 print(letter*10)
 print('\n')
