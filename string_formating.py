@@ -1,6 +1,3 @@
-from traceback import print_exception
-
-
 print("i'm going to inject %s here."%'something')
 print('\n')
 print ("i'm going to inject %s text here,and %s text here."%('some','more'))
