@@ -13,7 +13,7 @@ elif loc =="bank":
 else:
     print('visit again')
 print('\n')
-strager="vicky"
+strager="praveen"
 if strager == "dhinesh":
     print("welcome dhinesh!")
 elif strager =='vicky':
