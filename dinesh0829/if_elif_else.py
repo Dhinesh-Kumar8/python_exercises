@@ -5,7 +5,7 @@ if x:
 else:
     print('I will be printed in any case where x is not true')
 print('\n')
-loc ="sbibank"
+loc ="super"
 if loc == "sbibank":
     print("hi sbi:")
 elif loc =="bank":

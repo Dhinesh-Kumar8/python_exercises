@@ -3,7 +3,7 @@ for num in beast:
     print(num)
 print("example2")
 for num in beast:
-    if num %2==0:
+    if num %3==0:
         print(num)
     else:
         print("odd number")
