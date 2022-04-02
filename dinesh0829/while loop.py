@@ -1,3 +1,4 @@
+print("while starts")
 x =0
 while x<10:
     print("x is currently:",x)
@@ -5,6 +6,7 @@ while x<10:
     x+=1
 else:
     print("all done!")
+print("\nbreak,\nconitune,\npass")
 #break,conitune,pass
 s=0
 while s<10:
@@ -26,4 +28,4 @@ while x<10:
         break
     else:
         print("continue...")
-        continue
+        pass

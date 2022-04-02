@@ -1,12 +1,14 @@
 #range
 from random import randint, shuffle
-
-
+print("int1")
 print(range(0,11))
+print("int2")
 print(list(range(0,11)))
+print("int3")
 print(list(range(0,12)))
-print('\n')
+print('int4')
 print(list(range(0,11,2)))
+print("int5")
 print(list(range(0,101,10)))
 #enumerate
 index_count=0
