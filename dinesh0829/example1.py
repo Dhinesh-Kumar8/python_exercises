@@ -1,6 +1,3 @@
-from pip import main
-
-
 my_lst1=[1,2,3]
 my_lst2=[4,5,6]
 matrix =[my_lst1,my_lst2]
