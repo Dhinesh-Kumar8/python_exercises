@@ -1,5 +1,7 @@
+from http.client import HTTP_VERSION_NOT_SUPPORTED
 from operator import truediv
 from pickle import APPEND
+from random import shuffle
 from unittest import result
 
 
@@ -88,4 +90,38 @@ for stock,price in stock_prices:
     print(stock)
 for stock,price in stock_prices:
     print(price)
-    
+work_hours= [('abby',100),('billy',400),('cassie',800)]
+def employee_check(wor_hours):
+    current_max=0
+    employe_of_month=''
+    for employee,hours in work_hours:
+        if hours > current_max:
+            current_max = hours
+            employe_of_month = employee
+        else:
+            pass
+    return(employe_of_month,current_max)
+print(employee_check(work_hours))
+#shuffle operation
+example=[1,2,3,4,5]
+shuffle(example)
+print(example)
+my_list =['',0,'']
+def shuffle_list(my_list):
+    shuffle(my_list)
+    return my_list
+print(my_list)
+print(shuffle_list(my_list))
+#player guess
+def player_guess():
+    guess = ''
+    while guess not in ['0','1','2']:
+        guess = input('pick a number:0,1,or2:')
+    return int(guess)
+print(player_guess())
+def check_guess(my_list,guess):
+    if my_list[guess] == '0':
+        print('correct guess!')
+    else:
+        print('better luck next time')
+        print(my_list)
