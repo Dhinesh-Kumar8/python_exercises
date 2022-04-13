@@ -1,8 +1,12 @@
-stock_prices = [('AAPL',200),('GOOG',300),('MSFT',400)]
-for item in stock_prices:
-    print(item)
-for stock,prices in stock_prices:
-    print(prices)
-    print(max(stock_prices))
-stock1 =[200,300,400]
-print(max(stock1))
+stock_prices = [('AAPL',700),('GOOG',350),("MSFT",400)]
+def min_prices(stock_prices):
+    min =10000000
+    stock=None
+    for stock,prices in stock_prices:
+        if prices < min :
+            min = prices
+        else:
+            pass 
+    return min
+am = min_prices(stock_prices)
+print(am)
