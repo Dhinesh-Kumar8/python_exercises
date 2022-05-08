@@ -1,13 +1,24 @@
 from tokenize import Number
-list = [10,20,30,10,30,100,10]
-Number = sorted(list)
-print((Number))
-for num in Number :
-    first_Number = num
-    for index in Number:
-        second_number = index
-        if num == index:
-            print(Number)
-        else:
-            print([])
-        
+
+google = [10,20,30,10,30,100,100]
+
+
+def duplicate_finder(google):
+    Number = google
+    duke = []
+    for num in sorted(list(set(Number))) :
+        mylist = []
+        for num2 in Number:
+            if num == num2:
+                mylist.append(num)
+        duke.append(mylist)
+    return duke
+
+
+print(duplicate_finder(google)) 
+
+    
+                
+                
+                
+            
