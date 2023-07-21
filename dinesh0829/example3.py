@@ -6,5 +6,5 @@ for i in range(len(my_list)):
 print(new_list)  
 print('\n')  
 #ex
-if true:
+if True:
     print('if is true')

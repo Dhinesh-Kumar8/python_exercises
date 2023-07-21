@@ -2,11 +2,12 @@ list1=[1,2,3,4,5,6,7,8,9,10]
 for num in list1 :
     print(num)
     #module denoted as %
-    print(17%5)
-    #module for remainder 
-    print(10%3)
-    print(18%7)
-    print(4%2)
+print("\n")
+print(17%5)
+#module for remainder 
+print(10%3)
+print(18%7)
+print(4%2)
 print("EXAMPLE")
 for num in list1:
     if num % 2 == 0:
